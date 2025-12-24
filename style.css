@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: rgb(3, 111, 138);
+}
+
+.hd {
+    background-color: rgb(36, 57, 163);
+    box-shadow: -1px 10px 15px 4px #2CF5FF;
+    border-bottom: 2px solid gold;
+    position: sticky;
+    top: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 0 15px;
+    background-color: rgb(36, 57, 163);
+}
+
+.nv {
+    background-color: rgb(36, 57, 163);
+    float: right;;
+}
+
+.container:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.logo {
+    border: 2px solid white;
+    border-radius: 10%;
+    margin: 10px;
+    box-shadow: -1px 0px 15px 0px white;
+    float: left;
+}
+
+.logo:hover {
+    box-shadow: -1px 0px 25px 5px #2CF5FF;
+    border: 2px solid #2CF5FF;
+    transition: 0.5s; /*це шукав в інтернеті*/
+    background-color: #1ea7af;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    margin: 0px 10px;
+}
+
+a {
+    text-decoration: none;
+    color: gold;
+    padding: 10px;
+}
+
+.t {
+    font-size: 21px;
+    color: gold;
+    line-height: 200px;
+}
+
+.t:hover {
+    color: #2CF5FF;
+    transition: 0.5s;
+    border: #1ea7af;
+    border-radius: 20px;
+    background-color: #1ea7af;
+    box-shadow: -1px 0px 15px 0px #2CF5FF;
+}
+
+/* nav a:hover {
+    color: #2CF5FF;
+    transition: 0.5s;
+    border: #1ea7af;
+    border-radius: 20px;
+    background-color: #1ea7af;
+    box-shadow: -1px 0px 15px 0px #2CF5FF;
+} */
+
+.r2 {
+    border: #052e30;
+    border-radius: 20px;
+    background-color: #052e30;
+    box-shadow: -1px 0px 15px 0px #09464a;
+    color: gold;
+    font-size: 21px;
+    line-height: 200px;
+}
+
+.r2:hover {
+    box-shadow: -1px 0px 25px 5px #2CF5FF;
+    border: 2px solid #2CF5FF;
+    transition: 0.5s;
+    background-color: #1ea7af;
+}
+
+.banner {
+    background-color: rgb(36, 57, 163);
+    box-shadow: -1px 10px 15px 4px #2CF5FF;
+    text-align: center;
+    padding: 50px 0 0 0;
+}
+
+.btn {
+    display: inline-block;
+    background-color: gold;
+    color: rgb(36, 57, 163);
+    padding: 10px 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn:hover {
+    background-color: #13e0e3;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.729);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.container2 {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.slogan {
+    color: gold;
+    font-size: 40px;
+    font-family: sans-serif;
+    font-style: italic;
+    margin: 50px 0;
+}
+
+.container3 {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 0 15px;
+    background-color: #09464a;
+}
+
+.container3:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.articles {
+    float: left;
+    width: 65%;
+    padding: 10px;
+    border: 2px solid gold;
+}
+
+.article {
+    padding: 20px;
+    margin: 10px 0px;
+    border: 2px solid black;
+}
+
+.article_text {
+    float: left;
+    width: 270px;
+}
+
+.article_image {
+    float: right;
+}
+
+.article:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.sidebar {
+    float: right;
+    width: 35%;
+}
+
+.sidebarimg {
+    border: 2px solid gold;
+    border-radius: 10%;
+    box-shadow: -1px 0px 15px 0px gold;
+    float: right;
+} 
+
+.container3 {
+    padding-top: 30px;
+}
